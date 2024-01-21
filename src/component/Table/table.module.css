@@ -1,0 +1,56 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  width: 12.5%;
+  /* Equal width for each header column */
+}
+
+@media (max-width: 600px) {
+
+  th,
+  td {
+    display: block;
+    width: 100%;
+    /* Full width for each cell on small screens */
+    box-sizing: border-box;
+  }
+
+  th {
+    text-align: center;
+  }
+
+  .myTable button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+button.editButton {
+  background-color: #2ecc71;
+}
+
+button.deleteButton {
+  background-color: #e74c3c;
+}

@@ -1,0 +1,60 @@
+.formContainer {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputField {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.checkbox,
+.radio {
+    margin-right: 5px;
+}
+
+/* Style the labels */
+label {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.formGroup {
+    margin: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px
+}
+
+.btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+.weekdayWrapper{
+    display: flex;
+    flex-direction: column;
+}
